@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width" , initial-scale=1.0">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+  <title>Movie Application - Home Page</title>
+</head>
+
+<body>
+  <div align="left">
+    <h1 id="greet"></h1>
+    <form>
+      <a href="signin">Sign in</a>
+      <div class="form-moviesearch">
+        <input type="text" id="movieName" autofocus placeholder="Movie Name">
+      </div>
+      <button type=submit id="search"> Search</button>
+      <div>
+        <a href="/signup">New to Movie Search? Sign Up Now</a>
+      </div>
+    </form>
+  </div>
+  <div id="movies-searchable">
+  </div>
+  <script src="js/index.js"></script>
+</body>
+
+</html>

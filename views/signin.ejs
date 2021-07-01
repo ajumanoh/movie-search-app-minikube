@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" />
+    <title>Login Page</title>
+</head>
+
+<body>
+    <h1>Sign In</h1>
+    <ul id: "errmessage" style="list-style-type:none">
+        <% if(typeof message !='undefined' ) { %>
+            <li>
+                <%= message %>
+            </li>
+            <% } %>
+    </ul>
+    <a href="/">Home</a>
+    <form action="/signin" method="POST">
+        <div class="form-userinfo">
+            <input type="text" id="emailid" name=emailId autofocus placeholder="Email"
+                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" title="Must be a valid email id" required>
+        </div>
+        <div class="form-userinfo">
+            <input type="password" id="password" name=password autofocus placeholder="Password" required>
+            <button type=submit id="signIn"> Sign In</button>
+        </div>
+        <a href="/signup">New to Movie Search? Sign Up Now</a>
+    </form>
+</body>
+
+</html>

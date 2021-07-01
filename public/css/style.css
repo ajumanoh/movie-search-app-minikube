@@ -1,0 +1,55 @@
+    body {
+      color: #020101;
+      background-color: black;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+
+    h1 {
+      color: white;
+      font-size: 200%;
+      font-weight: normal;
+      margin-bottom: 0;
+    }
+
+    p {
+      color: white;
+      font-size: 150%;
+      font-weight: normal;
+      margin-bottom: 0;
+    }
+
+    ul {
+      color: yellow
+    }
+
+    #search {
+      color: white;
+      background-color: red;
+      margin: 5px
+    }
+
+    #signIn {
+      color: white;
+      background-color: red;
+      margin: 5px
+    }
+
+    #movies-searchable {
+      margin: 5px;
+    }
+
+    img:hover {
+      margin-left: 0 40px;
+      transform: scale(1.1);
+      cursor: pointer;
+    }
+
+    .content {
+      height: 300px;
+      display: none;
+    }
+
+    .content-display {
+      display: block;
+    }
