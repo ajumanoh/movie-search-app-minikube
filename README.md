@@ -2,8 +2,8 @@
 
 Implemented the application movie-search-app-local using kubernetes. Tested using minikube
 
-Docker image for the applicaiton is present in https://hub.docker.com/repository/docker/ajumanoh/movie-search-app
-Postgres is deployed using public postgres image.
+Docker image for the applicaiton is present in https://hub.docker.com/repository/docker/ajumanoh/movie-search-app. 
+PostgreSQL DB is deployed using public postgres image.
 
 Features of the application -
 
